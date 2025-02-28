@@ -384,6 +384,22 @@
       of success rates for the evaluated configurations, showing diminished success rates on configurations more far away from the demonstrated ones.
       We attribute this decline to the <a href="#limitation">visual mismatch</a> problem caused by single-view observations.
     </p>
+
+    <div class="rows is-centered has-text-centered">
+    <h2 id="cost" class="title is-4" style="margin-top: 1.8em; margin-bottom: 0.8em; color:#6510ad">Time Cost for Generating Real-World Demonstrations</h2>
+    <div class="columns">
+      <div class="columns is-vcentered  is-centered">
+        <img style="width: 80%;" src="media/images/cost.png" class="method-image" />
+      </div>
+  
+      <div class="columns is-vcentered  is-centered">
+        <p class="content" style="text-align: left">
+          <a href="https://mimicgen.github.io/">MimicGen</a> generates demonstrations via expensive on-robot rollouts. In comparison, 
+          <i>DemoGen</i> adopts a cost-effective fully synthetic manner. It takes <i>DemoGen</i> only 22 seconds to generate 2214
+          demonstration trajectories, that is, ~147k observation-action pairs.
+        </p>
+      </div>
+    </div>
 </div>
 
 
