@@ -105,10 +105,11 @@
           <div class="button-container">
             <a href="./paper.pdf" target="_blank" class="button" style="background-color: #f2f2f2;border: transparent;"><i class="fa-light fa-file"></i>&emsp14;PDF</a>
             <a href="https://arxiv.org/abs/2502.16932" target="_blank" class="button" style="background-color: #f2f2f2;border: transparent;"><i class="ai ai-arxiv"></i>&emsp14;arXiv</a>
-            <a href="https://youtu.be/rNhptjL-um8" target="_blank" class="button"><i class="fa-light fa-film"></i>&emsp14;Video</a>
-            <!-- <a href="https://x.com/wenlong_huang/status/1829135436717142319" target="_blank" class="button"><i class="fa-brands fa-x-twitter"></i>&emsp14;tl;dr</a> -->
+            
+            <a href="https://x.com/ZhengrongX/status/1899134914416800123" target="_blank" class="button" style="background-color: #f2f2f2;border: transparent;"><i class="fa-brands fa-x-twitter"></i>&emsp14;tl;dr</a>
             <a href="https://github.com/TEA-Lab/DemoGen" target="_blank" class="button" style="background-color: #f2f2f2;border: transparent;"><i class="fa-light fa-code"></i>&emsp14;Code</a>
             <!-- <a href="https://huggingface.co/datasets/Fanqi-Lin/Processed-Task-Dataset" target="_blank" class="button" style="background-color: #f2f2f2;border: transparent;"><i class="fa-light fa-folder"></i>&emsp14;Data</a> -->
+            <a href="https://b23.tv/6f23B5B" target="_blank" class="button" style="background-color: #f2f2f2;border: transparent;"><i class="fa-light fa-film"></i>&emsp14;直播</a>
           </div>
         </div>
       </div>
@@ -137,7 +138,33 @@
     </div>
   </div>
 
-<div class="container is-max-widescreen">
+  <div class="container is-max-widescreen">
+  <hr style="margin-top: 1em;">
+  <div class="rows is-centered has-text-centered">
+    <h2 class="title is-3" style="margin-bottom: 0.5em; color:#6510ad">Livestreaming: Train Live & Test Live</h2>
+    </br>
+    <div class="columns is-vcentered  is-centered">
+      <video id="method" autoplay muted loop  width="32%" style="margin-right: 5px;">
+        <source src="media/videos/live/source.mp4" type="video/mp4">
+      </video>
+      <video id="method" autoplay muted loop  width="32%" style="margin-right: 5px;">
+        <source src="media/videos/live/gen_and_train.mp4" type="video/mp4">
+      </video>
+      <video id="method" autoplay muted loop  width="32%" style="margin-right: 5px;">
+        <source src="media/videos/live/test.mp4" type="video/mp4">
+      </video>
+    </div>
+    <p class="content has-text-justified">
+      <i>DemoGen</i> is simple but it really works! To highlight its efficiency and effectiveness, we livestreamed its full pipeline: (1) collecting one source demo, 
+      (2) generating synthetic demos with <i>DemoGen</i>, (3) training Diffusion Policy, and (4) testing the trained policy on the real robot. The pipeline was finished in 
+      around <strong>30 minutes</strong>, and the trained policy achieved a <strong>100%</strong> success rate with <strong>O.O.D.</strong> configurations on a challenging Jar-Opening task.
+      The playback is available on <a href="https://b23.tv/6f23B5B" target="_blank">Bilibili</a>.
+  </div>
+  <br>
+
+
+
+
 <hr style="margin-top: 1em;">
 <div class="columns is-centered has-text-centered">
   <div class="column is-four-fifths">
@@ -159,6 +186,9 @@
     </div>
   </div>
 </div>
+
+
+
 
 
 <hr style="margin-top: 1em;">
